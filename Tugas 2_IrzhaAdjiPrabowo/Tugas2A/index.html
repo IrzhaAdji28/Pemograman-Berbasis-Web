@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Mahasiswa Baru</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+    <h1>Pendaftaran Mahasiswa Baru</h1>
+
+    <div class="data">
+        <form action="#" method="GET">
+            <label for="Npm">NPM (Nomor Pokok Mahasiswa)</label>
+            <br>
+            <input type="number" name="Npm" id="Npm">
+            <br><br>
+            <label for="nama">Nama Lengkap</label>
+            <br>
+            <input type="text" name="nama" id="nama">
+            <br><br>
+            <label for="Alamat">Alamat</label>
+            <br>
+            <textarea name="alamat" id="alamat" ></textarea>
+            <br><br>
+        </form>
+    </div>
+
+    <div class="gender">
+        <label for="gender">Jenis Kelamin</label>
+        <br>
+        <input type="radio" name="gender" value="male">
+        <span>Laki - laki</span>
+        <br>
+        <input type="radio" name="gender" value="female">
+        <span>Perempuan</span>
+        <br><br>
+    </div>
+
+    <div class="prodi">
+        <label for="jurusan">Jurusan</label>
+        <br>
+        <select name="jurusan" id="jurusan">
+        <option value="" disabled selected class="placeholder">Pilih Jurusanmu...</option>
+        <option value="Informatika">Informatika</option>
+        <option value="Sistem Informasi">Sistem Informasi</option>
+        </select>
+    </div>
+
+    <br><br>
+    <button>Tambah</button>
+    </div>
+</body>
+</html>

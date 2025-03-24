@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    font-size: 35px;
+    color: #080808;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  table {
+    width: 90%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    margin: auto;
+    border: 1px solid #d1d5db;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  th, td {
+    border: 1.5px solid #bdbaba;
+    padding: 8px;
+    text-align: center;
+  }

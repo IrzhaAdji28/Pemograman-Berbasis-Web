@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    font-size: 35px;
+    color: #080808;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 kolom sama lebar */
+    gap: 10px; /* Jarak antar gambar */
+    padding: 20px;
+    margin:auto;
+    width: 630px;
+}
+
+.gallery-item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+

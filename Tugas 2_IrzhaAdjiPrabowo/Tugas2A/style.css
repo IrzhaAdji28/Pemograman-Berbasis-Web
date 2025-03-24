@@ -1,0 +1,54 @@
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 50%;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"], input[type="number"],
+textarea,select {
+    box-sizing: border-box;
+    width: 100%; 
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #0f0d0d;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.placeholder {
+    color: gray;
+    font-style: italic;
+}
+
+h1{
+    text-align: center;
+    font-size: 35px;
+    color: #080808;
+    font-weight: bold;
+}
+
+button{
+    padding: 10px;
+    background-color: rgb(8, 107, 199);
+    color: white;
+    border-radius: 10px;
+    border-color: white;
+
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(29, 31, 183);
+}
