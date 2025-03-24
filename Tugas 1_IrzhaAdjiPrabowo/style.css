@@ -1,0 +1,78 @@
+body {
+    font-family: Manrope, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.container {
+    width: 50%;
+    margin: 40px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(192, 192, 192);
+}
+
+.category {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: -5px;
+    margin-bottom: 8px;
+    color: #222;
+}
+
+.identitas {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 22px;
+    color: #111;
+    margin-top: 30px;
+}
+
+ol li a{
+    color: blue;
+    text-decoration: none;
+}
+
+ol li a:hover{
+    color: rgb(57, 9, 128);
+    text-decoration: underline;
+}
+
+.S-Big {
+    font-size: 24px;
+    font-weight: bold;
+    color: #222;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 16px;
+    color: #000000;
+    text-align: justify;
+}
+
+strong {
+    color: #222;
+}
+
+.citation {
+    font-size: 14px;
+    font-style: italic;
+    margin-top: -15px;
+    color: #666;
+}
