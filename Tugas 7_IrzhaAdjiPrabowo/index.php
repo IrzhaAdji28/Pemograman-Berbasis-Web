@@ -38,20 +38,7 @@ function tampilkanFormEditMatakuliah($kodemk) {
     <title>Sistem Informasi KRS</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <style>
-        .container { max-width: 1200px; padding: 0 20px; }
-        .nav-container { background-color: #007bff; border-radius: 8px; padding: 10px 20px; margin-bottom: 30px; }
-        .menu-container { display: flex; justify-content: center; gap: 15px; }
-        .menu-button { padding: 10px 25px; background-color: transparent; color: white; border: 2px solid rgba(255,255,255,0.3); border-radius: 6px; }
-        .menu-button:hover { background-color: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.5); }
-        .menu-button.active { background-color: rgba(255,255,255,0.2); border-color: white; }
-        .page-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px; padding: 18px 25px; background-color: #f8f9fa; border-radius: 8px; }
-        .action-container { display: flex; gap: 12px; }
-        .search-box { padding: 10px 15px; border: 1px solid #ced4da; border-radius: 6px; width: 250px; }
-        .search-button, .add-button { padding: 10px 20px; border: none; border-radius: 6px; cursor: pointer; }
-        .search-button { background-color: #007bff; color: white; }
-        .add-button { background-color: #28a745; color: white; display: flex; align-items: center; gap: 8px; }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
